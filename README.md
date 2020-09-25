@@ -60,8 +60,7 @@ cd ./LaboroTVFaceModels/LaboroTVFaceModels/
 <br>
 
 #### Train the model using code:
-* Multiple GPU: ```CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --network resnet50```
-<br>
+* Multiple GPU: ```CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --network resnet50```<br>
 * Single GPU: ```CUDA_VISIBLE_DEVICES=0 python train.py --network mobile0.25```
 
  
