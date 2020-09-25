@@ -19,8 +19,8 @@ Laboro TV Face Models: RetinaFace trained with Laboro TV Face dataset
     + [Train the model using code](#train-the-model-using-code)
     + [Train method](#train-method)
   * [Evaluation](#evaluation)
-    + [Evaluation on TVFace Dev dataset](#evaluation-on-tvface-dev-dataset)
-    + [Evaluation on TVFace Test dataset](#evaluation-on-tvface-test-dataset)
+    + [Evaluate on TVFace Dev dataset](#evaluate-on-tvface-dev-dataset)
+    + [Evaluate on TVFace Test dataset](#evaluate-on-tvface-test-dataset)
 
 
 Introduction
