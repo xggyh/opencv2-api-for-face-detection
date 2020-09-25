@@ -19,8 +19,8 @@ Laboro TV Face Models: RetinaFace trained with Laboro TV Face dataset
     + [Train the model using code](#train-the-model-using-code)
     + [Train method](#train-method)
   * [Evaluation](#evaluation)
-    + [Evaluation on TVFace Dev-dataset](#evaluation-on-tvface-dev-dataset)
-    + [Evaluation on TVFace Test-dataset](#evaluation-on-tvface-test-dataset)
+    + [Evaluation on TVFace Dev dataset](#evaluation-on-tvface-dev-dataset)
+    + [Evaluation on TVFace Test dataset](#evaluation-on-tvface-test-dataset)
 
 
 Introduction
@@ -130,7 +130,7 @@ The train process consists of two phases, in which the learning_rate is changed:
 <br>
 
 ### Evaluation<br>
-#### Evaluate on TVFace Dev-dataset<br>
+#### Evaluate on TVFace Dev dataset<br>
 You first need to download the dev groundtruths file and place it in:```./val_dataset_evaluate/```.  [download link](https://drive.google.com/drive/folders/1SnRVaS_l6U4yg6bfPCDdfupAza55mYUH?usp=sharing)<br>
 * Generate txt file:
 ```linux
@@ -143,7 +143,7 @@ python eval.py
 ```
 * Result will be saved in ```./result/```<br>
 
-#### Evaluate on TVFace Test-dataset<br>
+#### Evaluate on TVFace Test dataset<br>
 You first need to download the test groundtruths file and place it in:```./test_dataset_evaluate/```.  [download link](https://drive.google.com/drive/folders/1YA60ZBHgFe3TPcpmNXTsEVWC5Fxm2oGi?usp=sharing)<br>
 * Generate txt file:
 ```linux
