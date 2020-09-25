@@ -82,7 +82,7 @@ python val_tvface.py  --trained_model your_trained_model --network resnet50 or m
 cd val_dataset_evaluate/
 python eval.py
 ```
-* Result will be saved in ```./result```<br>
+* Result will be saved in ```./result/```<br>
 
 #### Evaluate on TVFace Test-dataset<br>
 You first need to download the test groundtruths file and place it in:```./test_dataset_evaluate/```.  [download link](https://drive.google.com/drive/folders/1YA60ZBHgFe3TPcpmNXTsEVWC5Fxm2oGi?usp=sharing)<br>
@@ -95,7 +95,7 @@ python test_tvface.py  --trained_model your_trained_model --network resnet50 or 
 cd test_dataset_evaluate/
 python eval.py
 ```
-* Result will be saved in ```./result```
+* Result will be saved in ```./result/```
 
 
 
