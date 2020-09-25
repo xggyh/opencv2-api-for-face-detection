@@ -24,7 +24,6 @@ and after downloading you need to organise the dataset directory as follows:<br>
       tvtest_list.txt
 ```
 <br>
-
 #### Requirements<br>
 <br>
 * Python 3.6<br>
@@ -32,16 +31,13 @@ and after downloading you need to organise the dataset directory as follows:<br>
 * torch version == 0.3.0+<br>
 * GPU is recommended<br>
 <br>
-
 #### Installion<br>
 <br>
-
 ```python3
 git clone https://github.com/laboroai/LaboroTVFaceModels.git
 cd ./LaboroTVFaceModels/LaboroTVFaceModels/
 ```
 <br>
-
 ### training process<br>
 #### pretrained weight<br>
 We provide Resnet50 and Mobilenet0.25 as backbone network to train model. for Resnet50 pretrained model is offered by torch model and for Mobilenet0.25 pretrained model is offered by this [repository](https://github.com/biubug6/Pytorch_Retinaface), they trained the Mobilenet0.25 model on imagenet dataset and get 46.58% in top 1. <br>
