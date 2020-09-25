@@ -1,5 +1,6 @@
 * [Introduction](#Introduction)
-    * [About RetinaFace model](#About RetinaFace model)<br>
+    * [About RetinaFace model](#About RetinaFace model)
+<br>
 Laboro TV Face Models: RetinaFace trained with Laboro TV Face dataset
 ======
 Introduction
