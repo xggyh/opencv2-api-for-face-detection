@@ -30,6 +30,10 @@ About our laboro TV dataset
 ### Introduction of Laboro TV dataset
 The laboro face dataset is a dataset of pictures screenshotted from TV. All pictures are taken at a certain moment of different programs. There are 33,935 pictures in total, and 22,811 pictures contain faces. The total number of faces is 68,896 and average one picture which contains faces has 3.02 faces. This dataset can be used in tv face detection.
 ### Annotation details
+The annotation of each picture contains:<br>
+* The number of faces contained in this picture (if there is no face in picture, there is no label below)<br>
+* The position of the boundingbox (x, y, w, h)<br>
+* Three levels according to the degree of blur, shaknesthree, occurrence(1 heavy, 2 normal, 3 without) and two different posts of the face(atypical, typical).<br>
 
 
 
