@@ -36,7 +36,7 @@ and after downloading you need to organise the dataset directory as follows:<br>
 #### Installion<br>
 <br>
 
-```
+```python3
 git clone https://github.com/laboroai/LaboroTVFaceModels.git
 cd ./LaboroTVFaceModels/LaboroTVFaceModels/
 ```
