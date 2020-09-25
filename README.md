@@ -55,7 +55,7 @@ cd ./LaboroTVFaceModels/LaboroTVFaceModels/
 
 #### Check network configuration
 <br>
-* Before training, you need to check network configuration (e.g. batch_size, min_sizes and steps etc..) in the './data/config.py and train.py.'
+* Before training, you need to check network configuration (e.g. batch_size, min_sizes and steps etc..) in the `./data/config.py and train.py.`
 
 
 
