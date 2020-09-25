@@ -88,7 +88,7 @@ cd ./LaboroTVFaceModels/LaboroTVFaceModels/
 * We filtered the pictures containing human faces from the total dataset for training, development and testing. and we only train the position of the face bounding box labels, without training on blur, shakiness, occlusion, and pose labels.<br>
 * The total number of pictures containing human faces is 22811, of which are devided into 17799 for train, 1263 for dev, and 3749 for test.<br>
 * We also provide the organized dataset we used as followed directory structure. <br>
-Link: from Google Drive [tvface](https://drive.google.com/drive/folders/1zT16rpWvVJrnDKG13mU6rkMXlZP9F01E?usp=sharing)
+Link: from Google Drive [tvface](https://drive.google.com/drive/folders/1SiKQfxY1MTEAdPHifx-2Q5WfbFR3mxpF?usp=sharing)
 and after downloading you need to organise the dataset directory as follows:<br>
 ```
   ./data/tvface/
@@ -108,7 +108,7 @@ and after downloading you need to organise the dataset directory as follows:<br>
 #### Pretrained weight<br>
 We provide Resnet50 and Mobilenet0.25 as backbone network to train model. 
 * For Resnet50 pretrained model is offered by torch model
-* For Mobilenet0.25 pretrained model is offered by this [repository](https://github.com/biubug6/Pytorch_Retinaface), they trained the Mobilenet0.25 model on imagenet dataset and get 46.58% in top 1. Mobilenet0.25 pretrained weight link: [Google Drive](https://drive.google.com/file/d/1bilHHmGKfuqjQ3V7loqLRGgpAP8KHIKV/view?usp=sharing) and after downloading the model could be put as follows:
+* For Mobilenet0.25 pretrained model is offered by this [repository](https://github.com/biubug6/Pytorch_Retinaface), they trained the Mobilenet0.25 model on imagenet dataset and get 46.58% in top 1. Mobilenet0.25 pretrained weight link: [Google Drive](https://drive.google.com/drive/folders/1mOkvFZXNTgWcDstWwVvRMEXsAyj0uRGj?usp=sharing) and after downloading the model could be put as follows:
 ```linux
   ./weights/
       mobilenetV1X0.25_pretrain.tar
@@ -145,7 +145,7 @@ python eval.py
 * Result will be saved in ```./result/```<br>
 
 #### Evaluate on TVFace Test dataset<br>
-You first need to download the test groundtruths file and place it in:```./test_dataset_evaluate/```.  [download link](https://drive.google.com/drive/folders/1YA60ZBHgFe3TPcpmNXTsEVWC5Fxm2oGi?usp=sharing)<br>
+You first need to download the test groundtruths file and place it in:```./test_dataset_evaluate/```.  [download link](https://drive.google.com/drive/folders/1SiKQfxY1MTEAdPHifx-2Q5WfbFR3mxpF?usp=sharing)<br>
 * Generate txt file:
 ```linux
 python test_tvface.py  --trained_model your_trained_model --network resnet50 or mobile0.25
