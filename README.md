@@ -5,8 +5,8 @@ Introduction
 ### About RetinaFace model
 This RetinaFace model was trained with our labora TV Face dataset, on the basis of the [official RetinaFace model](https://github.com/deepinsight/insightface/tree/master/RetinaFace) and [Retinaface model by Pytorch](https://github.com/biubug6/Pytorch_Retinaface), We chose the pytorch version of the retinaface model, and used the resnet50 and mobilenet0.25 respectively as the backbone to train and fine-tune our TV face dataset.
 ### How well is the performance
-|backbone|accuracy on val|accuracy on test|accuracy on widerface easy|accuracy on widerface medium|accuracy on widerface hard|
-|:------:|:--------------:|:------:|:------:|:--------------:|:------:|:------:|
+| backbone | accuracy on tv-dev|accuracy on tv-test|accuracy on widerface easy|accuracy on widerface medium|accuracy on widerface hard|
+|:--------:|:-----------------:|:-----------------:|:------------------------:|:--------------------------:|:------------------------:|
 
 
 
