@@ -45,8 +45,7 @@ cd ./LaboroTVFaceModels/LaboroTVFaceModels/
 #### Pretrained weight<br>
 We provide Resnet50 and Mobilenet0.25 as backbone network to train model. 
 * For Resnet50 pretrained model is offered by torch model
-* For Mobilenet0.25 pretrained model is offered by this [repository](https://github.com/biubug6/Pytorch_Retinaface), they trained the Mobilenet0.25 model on imagenet dataset and get 46.58% in top 1. <br>
-Mobilenet0.25 pretrained weight link: [Google Drive](https://drive.google.com/file/d/1bilHHmGKfuqjQ3V7loqLRGgpAP8KHIKV/view?usp=sharing) and after downloading the model could be put as follows:
+* For Mobilenet0.25 pretrained model is offered by this [repository](https://github.com/biubug6/Pytorch_Retinaface), they trained the Mobilenet0.25 model on imagenet dataset and get 46.58% in top 1. Mobilenet0.25 pretrained weight link: [Google Drive](https://drive.google.com/file/d/1bilHHmGKfuqjQ3V7loqLRGgpAP8KHIKV/view?usp=sharing) and after downloading the model could be put as follows:
 ```linux
   ./weights/
       mobilenetV1X0.25_pretrain.tar
@@ -67,8 +66,8 @@ Before training, you need to check network configuration (e.g. batch_size, min_s
 
 #### Train method:<br>
 The train process consists of two phases, in which the learning_rate is changed:<br>
-* For Resnet50, first train this model with lr==1e-3 and after 95th epoch, we use the 95th epochs' weight to do fine-tune, decrease the lr to 1e-5 and after 3 or 4 epoch and then we get the best weight.
-* For Mobilenet0.25, first train this model with lr==1e-3 and after 200th epoch, we use the 155th and 180th epochs' weight to do fine-tune, decrease the lr to 1e-5 and after 10 epoch and then we get the best weight.
+* For Resnet50, first train this model with lr==1e-3 to the 95th epoch, we use the 95th epochs' weight to do fine-tune, decrease the lr to 1e-5 and after 3 or 4 epoch and then we get the best weight.
+* For Mobilenet0.25, first train this model with lr==1e-3 to the 200th epoch, we use the 155th and 180th epochs' weight to do fine-tune, decrease the lr to 1e-5 and after 10 epoch and then we get the best weight.
 
 
  
