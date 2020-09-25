@@ -132,7 +132,7 @@ The train process consists of two phases, in which the learning_rate is changed:
 
 ### Evaluation<br>
 #### Evaluate on TVFace Dev dataset<br>
-You first need to download the dev groundtruths file and place it in:```./val_dataset_evaluate/```.  [download link](https://drive.google.com/drive/folders/1SnRVaS_l6U4yg6bfPCDdfupAza55mYUH?usp=sharing)<br>
+You first need to download the dev groundtruths file and place it in:```./val_dataset_evaluate/groundtruths```.  [download link](https://drive.google.com/drive/folders/1SnRVaS_l6U4yg6bfPCDdfupAza55mYUH?usp=sharing)<br>
 * Generate txt file:
 ```linux
 python val_tvface.py  --trained_model your_trained_model --network resnet50 or mobile0.25
@@ -145,7 +145,7 @@ python eval.py
 * Result will be saved in ```./result/```<br>
 
 #### Evaluate on TVFace Test dataset<br>
-You first need to download the test groundtruths file and place it in:```./test_dataset_evaluate/```.  [download link](https://drive.google.com/drive/folders/1SiKQfxY1MTEAdPHifx-2Q5WfbFR3mxpF?usp=sharing)<br>
+You first need to download the test groundtruths file and place it in:```./test_dataset_evaluate/groundtruths```.  [download link](https://drive.google.com/drive/folders/1SiKQfxY1MTEAdPHifx-2Q5WfbFR3mxpF?usp=sharing)<br>
 * Generate txt file:
 ```linux
 python test_tvface.py  --trained_model your_trained_model --network resnet50 or mobile0.25
