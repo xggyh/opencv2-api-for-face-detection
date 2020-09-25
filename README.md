@@ -10,9 +10,9 @@ Laboro TV Face Models: RetinaFace trained with Laboro TV Face dataset
   * [Annotation details](#annotation-details)
 - [Train with Our model](#train-with-our-model)
   * [Preparation for training](#preparation-for-training)
-    + [Processing dataset](#processing-dataset)
     + [Requirements](#requirements)
     + [Installion](#installion)
+    + [Processing dataset](#processing-dataset)
   * [Training Process](#training-process)
     + [Pretrained weight](#pretrained-weight)
     + [Check network configuration](#check-network-configuration)
@@ -69,6 +69,20 @@ example:
 Train with Our Model
 ---
 ### Preparation for training<br>
+
+#### Requirements<br>
+
+* Python 3.6<br>
+* Pytorch version == 1.1.0+<br>
+* torch version == 0.3.0+<br>
+* GPU is recommended
+
+#### Installion<br>
+
+```linux
+git clone https://github.com/laboroai/LaboroTVFaceModels.git
+cd ./LaboroTVFaceModels/LaboroTVFaceModels/
+```
 #### Processing dataset <br>
 
 * We filtered the pictures containing human faces from the total dataset for training, development and testing. and we only train the position of the face bounding box labels, without training on blur, shakiness, occlusion, and pose labels.<br>
@@ -89,19 +103,6 @@ and after downloading you need to organise the dataset directory as follows:<br>
       tvtest_list.txt
 ```
 
-#### Requirements<br>
-
-* Python 3.6<br>
-* Pytorch version == 1.1.0+<br>
-* torch version == 0.3.0+<br>
-* GPU is recommended
-
-#### Installion<br>
-
-```linux
-git clone https://github.com/laboroai/LaboroTVFaceModels.git
-cd ./LaboroTVFaceModels/LaboroTVFaceModels/
-```
 
 ### Training process<br>
 #### Pretrained weight<br>
