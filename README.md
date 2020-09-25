@@ -44,7 +44,6 @@ cd ./LaboroTVFaceModels/LaboroTVFaceModels/
 
 ### training process<br>
 #### pretrained weight<br>
-<br>
 We provide restnet50 and mobilenet0.25 as backbone network to train model. for resnet
 
 
