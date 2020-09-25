@@ -31,7 +31,6 @@ and after downloading you need to organise the dataset directory as follows:<br>
 * torch version == 0.3.0+<br>
 * GPU is recommended<br>
 <br>
-
 #### Installion<br>
 
 ```linux
