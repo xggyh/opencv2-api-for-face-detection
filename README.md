@@ -15,7 +15,7 @@ After training by our dataset (training method is below), we evaluated our model
 | backbone | accuracy on tv-dev | accuracy on tv-test | accuracy on widerface easy | accuracy on widerface medium | accuracy on widerface hard |
 |:--------:|:------------------:|:-------------------:|:--------------------------:|:----------------------------:|:--------------------------:|
 |resnet50  |91.14%              |89.13%               |86.37%                      |85.63%                        |79.59%                      |
-|resnet50  |85.54%              |83.51%               |--.--%                      |--.--%                        |--.--%                      |
+|mobilenet0.25  |85.54%              |83.51%               |--.--%                      |--.--%                        |--.--%                      |
 
 
 
