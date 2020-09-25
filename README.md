@@ -5,6 +5,7 @@ Train with Our Model
 ---
 ### Preparation for training<br>
 #### Dataset - Laboro TV Face <br>
+#### adfa
 * We filtered the pictures containing human faces from the total dataset for training, development and testing. and we only train the position of the face bounding box labels, without training on blur, shakiness, occlusion, and pose labels.<br>
 * The total number of pictures containing human faces is 22811, of which are devided into 17799 for train, 1263 for dev, and 3749 for test.<br>
 * We also provide the organized dataset we used as followed directory structure. <br>
@@ -23,8 +24,7 @@ and after downloading you need to organise the dataset directory as follows:<br>
       tvtest_list.txt
 ```
 <br>
-Requirements
-#### Dataset - Laboro TV Face <br>
+
 * Python 3.6<br>
 * Pytorch version == 1.1.0+<br>
 * torch version == 0.3.0+<br>
