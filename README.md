@@ -68,6 +68,11 @@ Before training, you need to check network configuration (e.g. batch_size, min_s
 The train process consists of two phases, in which the learning_rate is changed:<br>
 * For Resnet50, first train this model with lr==1e-3 to the 95th epoch, we use the 95th epochs' weight to do fine-tune, decrease the lr to 1e-5 and after 3 or 4 epoch and then we get the best weight.
 * For Mobilenet0.25, first train this model with lr==1e-3 to the 200th epoch, we use the 155th and 180th epochs' weight to do fine-tune, decrease the lr to 1e-5 and after 10 epoch and then we get the best weight.
+<br>
+
+### Evaluation<br>
+#### Evaluate on TVFace Dev-dataset<br>
+You first need to download the groundtruths file and place it in:```./val_dataset_evaluate/```. [download link](https://drive.google.com/drive/folders/1E7tBOl37US0PJ6UhcVGfXPr2My2aar8X?usp=sharing)
 
 
  
