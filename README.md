@@ -25,8 +25,10 @@ When we used resnet50 as the backbone,the accuracy is higher and model performed
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License.](https://creativecommons.org/licenses/by-nc/4.0/)<br>
 For commercial use, please [contact Laboro.AI Inc.](https://laboro.ai/contact/other/)
 
-About our labora TV dataset
+About our laboro TV dataset
 ---
+### Introduction of Laboro TV dataset
+
 
 Train with Our Model
 ---
