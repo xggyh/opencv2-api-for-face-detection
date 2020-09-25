@@ -5,6 +5,6 @@ Train with Our Model
 ---
 ### Preparation for training<br>
 #### Dataset - Laboro TV Face <br>
-Filter the pictures containing human faces from the total dataset for training, development and testing. Only focus on the position of the face bounding box, without training on blur, shakiness, occlusion, and pose labels. 
-https://drive.google.com/drive/folders/1PipOBB47RxZ89DAvTGlgzR9-ovUskmJe?usp=sharing
+1 We filtered the pictures containing human faces from the total dataset for training, development and testing. and we only train the position of the face bounding box labels, without training on blur, shakiness, occlusion, and pose labels. <br>
+The total number of pictures containing human faces is 22811, of which are devided into 17799 for train, 1263 for dev, and 3749 for test.<br>
 
