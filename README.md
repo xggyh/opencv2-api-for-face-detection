@@ -10,7 +10,7 @@ Laboro TV Face Models: RetinaFace trained with Laboro TV Face dataset
   * [Annotation details](#annotation-details)
 - [Train with Our model](#train-with-our-model)
   * [Preparation for training](#preparation-for-training)
-    + [Dataset - Laboro TV Face](#dataset---laboro-tv-face)
+    + [Processing dataset](#processing-dataset)
     + [Requirements](#requirements)
     + [Installion](#installion)
   * [Training Process](#training-process)
@@ -18,7 +18,7 @@ Laboro TV Face Models: RetinaFace trained with Laboro TV Face dataset
     + [Check network configuration](#check-network-configuration)
     + [Train the model using code](#train-the-model-using-code)
     + [Train method](#train-method)
-  * [Evaluation](#evalution)
+  * [Evaluation](#evaluation)
     + [Evaluation on TVFace Dev-dataset](#evaluation-on-tvface-dev-dataset)
     + [Evaluation on TVFace Test-dataset](#evaluation-on-tvface-test-dataset)
 
@@ -69,7 +69,7 @@ example:
 Train with Our Model
 ---
 ### Preparation for training<br>
-#### Dataset - Laboro TV Face <br>
+#### Processing dataset <br>
 
 * We filtered the pictures containing human faces from the total dataset for training, development and testing. and we only train the position of the face bounding box labels, without training on blur, shakiness, occlusion, and pose labels.<br>
 * The total number of pictures containing human faces is 22811, of which are devided into 17799 for train, 1263 for dev, and 3749 for test.<br>
