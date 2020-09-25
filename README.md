@@ -8,6 +8,7 @@ This RetinaFace model was trained with our labora TV Face dataset, on the basis 
 | backbone | accuracy on tv-dev | accuracy on tv-test | accuracy on widerface easy | accuracy on widerface medium | accuracy on widerface hard |
 |:--------:|:------------------:|:-------------------:|:--------------------------:|:----------------------------:|:--------------------------:|
 |resnet50  |91.14%              |89.13%               |86.37%                      |85.63%                        |79.59%                      |
+|resnet50  |85.54%              |83.51%               |--.--%                      |--.--%                        |--.--%                      |
 
 
 
