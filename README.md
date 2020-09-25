@@ -82,6 +82,7 @@ python val_tvface.py  --trained_model your_trained_model --network resnet50 or m
 cd val_dataset_evaluate/
 python eval.py
 ```
+* Result will be saved in ```./result```
 
 
 
