@@ -11,6 +11,7 @@ After training by our dataset (training method is below), we evaluated our model
 * WiderFace easy evaluation dataset<br>
 * WiderFace medium evaluation dataset<br>
 * WiderFace hard evaluation dataset<br>
+
 When the backbone is resnet,the accuracy is higher and perform better, but when used mobilenet as the backbone the inference speed is much faster. So the two backbones can be selected according to actual conditions of use.
 
 | backbone | accuracy on tv-dev | accuracy on tv-test | accuracy on widerface easy | accuracy on widerface medium | accuracy on widerface hard |
