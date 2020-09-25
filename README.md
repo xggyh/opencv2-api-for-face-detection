@@ -45,13 +45,15 @@ cd ./LaboroTVFaceModels/LaboroTVFaceModels/
 
 ### training process<br>
 #### pretrained weight<br>
-We provide Resnet50 and Mobilenet0.25 as backbone network to train model. for Resnet50 pretrained model is offered by torch model and for Mobilenet0.25 pretrained model is offered by this [repository](https://github.com/biubug6/Pytorch_Retinaface), they trained the Mobilenet0.25 model on imagenet dataset and get 46.58% in top 1. <br>
-Mobilenet0.25 pretrained weight link: [Google Drive](https://drive.google.com/file/d/1bilHHmGKfuqjQ3V7loqLRGgpAP8KHIKV/view?usp=sharing) and after downloading the model could be put as follows:
+* We provide Resnet50 and Mobilenet0.25 as backbone network to train model. for Resnet50 pretrained model is offered by torch model and for Mobilenet0.25 pretrained model is offered by this [repository](https://github.com/biubug6/Pytorch_Retinaface), they trained the Mobilenet0.25 model on imagenet dataset and get 46.58% in top 1. <br>
+* Mobilenet0.25 pretrained weight link: [Google Drive](https://drive.google.com/file/d/1bilHHmGKfuqjQ3V7loqLRGgpAP8KHIKV/view?usp=sharing) and after downloading the model could be put as follows:
 ```linux
   ./weights/
       mobilenetV1X0.25_pretrain.tar
 ```
-
+<br>
+#### check network configuration
+<br>
 
 
 
