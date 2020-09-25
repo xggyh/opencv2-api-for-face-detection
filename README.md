@@ -75,6 +75,7 @@ The train process consists of two phases, in which the learning_rate is changed:
 You first need to download the groundtruths file and place it in:```./val_dataset_evaluate/```. [download link](https://drive.google.com/drive/folders/1E7tBOl37US0PJ6UhcVGfXPr2My2aar8X?usp=sharing)
 
 
+
  
 
 
