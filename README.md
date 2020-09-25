@@ -41,8 +41,8 @@ cd ./LaboroTVFaceModels/LaboroTVFaceModels/
 ```
 <br>
 
-### training process<br>
-#### pretrained weight<br>
+### Training process<br>
+#### Pretrained weight<br>
 * We provide Resnet50 and Mobilenet0.25 as backbone network to train model. for Resnet50 pretrained model is offered by torch model and for Mobilenet0.25 pretrained model is offered by this [repository](https://github.com/biubug6/Pytorch_Retinaface), they trained the Mobilenet0.25 model on imagenet dataset and get 46.58% in top 1. <br>
 * Mobilenet0.25 pretrained weight link: [Google Drive](https://drive.google.com/file/d/1bilHHmGKfuqjQ3V7loqLRGgpAP8KHIKV/view?usp=sharing) and after downloading the model could be put as follows:
 ```linux
@@ -58,7 +58,6 @@ cd ./LaboroTVFaceModels/LaboroTVFaceModels/
     ./data/
         config.py
 ```
-<br>
 * We used the Tesla V100 GPU provided by colab during the training process. The memory is 16GB and if you train in this condition:<br>
     1 You can adjust batchsize to 32 when your backbone is Mobilenet0.25 and batchsize to 8 when your backbone is Resnet50<br>
     2 If you have multiple GPU，you can increase the batchsize number to 32 when your backbone is Resnet50<br>
