@@ -28,6 +28,9 @@ For commercial use, please [contact Laboro.AI Inc.](https://laboro.ai/contact/ot
 About our laboro TV dataset
 ---
 ### Introduction of Laboro TV dataset
+The laboro face dataset is a dataset of pictures screenshotted from TV. All pictures are taken at a certain moment of different programs. There are 33,935 pictures in total, and 22,811 pictures contain faces. The total number of faces is 68,896 and average one picture which contains faces has 3.02 faces. This dataset can be used in tv face detection.
+### Annotation details
+
 
 
 Train with Our Model
