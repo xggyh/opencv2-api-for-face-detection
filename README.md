@@ -30,7 +30,7 @@ and after downloading you need to organise the dataset directory as follows:<br>
 * Python 3.6<br>
 * Pytorch version == 1.1.0+<br>
 * torch version == 0.3.0+<br>
-* GPU is recommended<br>
+* GPU is recommended
 <br>
 
 #### Installion<br>
@@ -57,6 +57,7 @@ cd ./LaboroTVFaceModels/LaboroTVFaceModels/
 * We used the Tesla V100 GPU provided by colab during the training process. The memory is 16GB and if you train in this condition:<br>
       1     You can adjust batchsize to 32 when your backbone is Mobilenet0.25 and batchsize to 8 when your backbone is Resnet50<br>
       2     If you have multiple GPU，you can increase the batchsize number to 32 when your backbone is Resnet50<br>
+ 
 
 
 
