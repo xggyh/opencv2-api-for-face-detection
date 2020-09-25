@@ -48,8 +48,7 @@ cd ./LaboroTVFaceModels/LaboroTVFaceModels/
 ```linux
   ./weights/
       mobilenetV1X0.25_pretrain.tar
-```
-<br>
+```<br>
 
 #### Check network configuration<br>
 
