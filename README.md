@@ -23,7 +23,8 @@ and after downloading you need to organise the dataset directory as follows:<br>
       tvtest_list.txt
 ```
 <br>
-#### Requirements
+Requirements
+---
 * Python 3.6<br>
 * Pytorch version == 1.1.0+<br>
 * torch version == 0.3.0+<br>
