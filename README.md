@@ -62,6 +62,13 @@ cd ./LaboroTVFaceModels/LaboroTVFaceModels/
 #### Train the model using code:
 * Multiple GPU: ```CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --network resnet50```<br>
 * Single GPU: ```CUDA_VISIBLE_DEVICES=0 python train.py --network mobile0.25```
+<br>
+
+#### Train method:<br>
+The train process consists of two phases, in which the learning_rate is changed:<br>
+* For Resnet50, first train this model with lr==1e-3 and after 95th epoch, we use the 95th epochs' weight to do fine-tune, decrease the lr to 1e-5 and after 3 or 4 epoch and then we get the best weight.
+* For Mobilenet0.25, first train this model with lr==1e-3 and after 200th epoch, we use the 155th and 180th epochs' weight to do fine-tune, decrease the lr to 1e-5 and after 10 epoch and then we get the best weight.
+
 
  
 
