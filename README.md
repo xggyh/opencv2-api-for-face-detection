@@ -25,8 +25,7 @@ and after downloading you need to organise the dataset directory as follows:<br>
 ```
 <br>
 
-#### Requirements
-<br>
+#### Requirements<br>
 
 * Python 3.6<br>
 * Pytorch version == 1.1.0+<br>
@@ -34,8 +33,7 @@ and after downloading you need to organise the dataset directory as follows:<br>
 * GPU is recommended<br>
 <br>
 
-#### Installion
-<br>
+#### Installion<br>
 
 ```linux
 git clone https://github.com/laboroai/LaboroTVFaceModels.git
