@@ -43,8 +43,10 @@ cd ./LaboroTVFaceModels/LaboroTVFaceModels/
 
 ### Training process<br>
 #### Pretrained weight<br>
-* We provide Resnet50 and Mobilenet0.25 as backbone network to train model. for Resnet50 pretrained model is offered by torch model and for Mobilenet0.25 pretrained model is offered by this [repository](https://github.com/biubug6/Pytorch_Retinaface), they trained the Mobilenet0.25 model on imagenet dataset and get 46.58% in top 1. <br>
-* Mobilenet0.25 pretrained weight link: [Google Drive](https://drive.google.com/file/d/1bilHHmGKfuqjQ3V7loqLRGgpAP8KHIKV/view?usp=sharing) and after downloading the model could be put as follows:
+We provide Resnet50 and Mobilenet0.25 as backbone network to train model. 
+* For Resnet50 pretrained model is offered by torch model
+* For Mobilenet0.25 pretrained model is offered by this [repository](https://github.com/biubug6/Pytorch_Retinaface), they trained the Mobilenet0.25 model on imagenet dataset and get 46.58% in top 1. <br>
+Mobilenet0.25 pretrained weight link: [Google Drive](https://drive.google.com/file/d/1bilHHmGKfuqjQ3V7loqLRGgpAP8KHIKV/view?usp=sharing) and after downloading the model could be put as follows:
 ```linux
   ./weights/
       mobilenetV1X0.25_pretrain.tar
@@ -53,10 +55,9 @@ cd ./LaboroTVFaceModels/LaboroTVFaceModels/
 
 #### Check network configuration<br>
 
-* Before training, you need to check network configuration (e.g. batch_size, min_sizes and steps etc..) in the ```./data/config.py```
-* We used the Tesla V100 GPU provided by colab during the training process. The memory is 16GB and if you train in this condition:<br>
-      1     You can adjust batchsize to 32 when your backbone is Mobilenet0.25 and batchsize to 8 when your backbone is Resnet50<br>
-      2     If you have multiple GPU，you can increase the batchsize number to 32 when your backbone is Resnet50<br>
+Before training, you need to check network configuration (e.g. batch_size, min_sizes and steps etc..) in the ```./data/config.py```, and we used the Tesla V100 GPU provided by colab during the training process. The memory is 16GB and if you train in this condition:<br>
+* You can adjust batchsize to 32 when your backbone is Mobilenet0.25 and batchsize to 8 when your backbone is Resnet50<br>
+* If you have multiple GPU，you can increase the batchsize number to 32 when your backbone is Resnet50<br>
 <br>
 
 #### Train the model using code:
