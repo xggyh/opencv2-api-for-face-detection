@@ -59,8 +59,8 @@ cd ./LaboroTVFaceModels/LaboroTVFaceModels/
         config.py
 ```
 * We used the Tesla V100 GPU provided by colab during the training process. The memory is 16GB and if you train in this condition:<br>
-      1   You can adjust batchsize to 32 when your backbone is Mobilenet0.25 and batchsize to 8 when your backbone is Resnet50<br>
-      2   If you have multiple GPU，you can increase the batchsize number to 32 when your backbone is Resnet50<br>
+      1     You can adjust batchsize to 32 when your backbone is Mobilenet0.25 and batchsize to 8 when your backbone is Resnet50<br>
+      2     If you have multiple GPU，you can increase the batchsize number to 32 when your backbone is Resnet50<br>
 
 
 
