@@ -1,7 +1,9 @@
 Laboro TV Face Models: RetinaFace trained with Laboro TV Face dataset
 ======
-introduction
+Introduction
 ---
+### About Retinaface model
+This RetinaFace model was trained with our labora TV Face dataset, on the basis of the [official RetinaFace model](https://github.com/deepinsight/insightface/tree/master/RetinaFace) and [Retinaface model by Pytorch](https://github.com/biubug6/Pytorch_Retinaface), We used the pytorch version of the retinaface model, and used the resnet50 and mobilenet0.25 respectively as the backbone to train and fine-tune our TV face dataset.
 
 
 
