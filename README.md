@@ -3,8 +3,15 @@ Laboro TV Face Models: RetinaFace trained with Laboro TV Face dataset
 Introduction
 ---
 ### About RetinaFace model
-This RetinaFace model was trained with our labora TV Face dataset, on the basis of the [official RetinaFace model](https://github.com/deepinsight/insightface/tree/master/RetinaFace) and [Retinaface model by Pytorch](https://github.com/biubug6/Pytorch_Retinaface), We chose the pytorch version of the retinaface model, and used the resnet50 and mobilenet0.25 respectively as the backbone to train and fine-tune our TV face dataset.
+This RetinaFace model was trained with our Laboro TV Face dataset, on the basis of the [official RetinaFace model](https://github.com/deepinsight/insightface/tree/master/RetinaFace) and [Retinaface model by Pytorch](https://github.com/biubug6/Pytorch_Retinaface), We chose the pytorch version of the retinaface model, and used the resnet50 and mobilenet0.25 respectively as the backbone to train and fine-tune our TV face dataset.
 ### How well is the performance
+After training by our dataset (training method is below), we evaluated our model by five task:
+* Our Laboro dev-dataset<br>
+* Our Laboro test-dataset<br>
+* WiderFace easy evaluation dataset<br>
+* WiderFace medium evaluation dataset<br>
+* WiderFace hard evaluation dataset<br>
+
 | backbone | accuracy on tv-dev | accuracy on tv-test | accuracy on widerface easy | accuracy on widerface medium | accuracy on widerface hard |
 |:--------:|:------------------:|:-------------------:|:--------------------------:|:----------------------------:|:--------------------------:|
 |resnet50  |91.14%              |89.13%               |86.37%                      |85.63%                        |79.59%                      |
