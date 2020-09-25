@@ -24,13 +24,20 @@ and after downloading you need to organise the dataset directory as follows:<br>
       tvtest_list.txt
 ```
 <br>
-
 #### Requirements<br>
 <br>
 * Python 3.6<br>
 * Pytorch version == 1.1.0+<br>
 * torch version == 0.3.0+<br>
 * GPU is recommended<br>
+<br>
+#### Installion<br>
+<br>
+```python
+git clone https://github.com/laboroai/LaboroTVFaceModels.git
+cd ./LaboroTVFaceModels/LaboroTVFaceModels/
+
+```
 
 
 
