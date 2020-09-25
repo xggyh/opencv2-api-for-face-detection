@@ -52,8 +52,9 @@ cd ./LaboroTVFaceModels/LaboroTVFaceModels/
       mobilenetV1X0.25_pretrain.tar
 ```
 <br>
-#### Check network configuration
-<br>
+
+#### Check network configuration<br>
+
 * Before training, you need to check network configuration (e.g. batch_size, min_sizes and steps etc..) in the 
 ```
     ./data/
