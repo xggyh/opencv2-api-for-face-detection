@@ -25,18 +25,22 @@ When we used resnet50 as the backbone,the accuracy is higher and model performed
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License.](https://creativecommons.org/licenses/by-nc/4.0/)<br>
 For commercial use, please [contact Laboro.AI Inc.](https://laboro.ai/contact/other/)
 
-About our laboro TV dataset
+About our Laboro TV dataset
 ---
 ### Introduction of Laboro TV dataset
-The laboro face dataset is a dataset of pictures screenshotted from TV. All pictures are taken at a certain moment of different programs. There are 33,935 pictures in total, and 22,811 pictures contain faces. The total number of faces is 68,896 and average one picture which contains faces has 3.02 faces. This dataset can be used in tv face detection.
+The laboro face dataset is a dataset of pictures screenshotted from TV. All pictures are taken at a certain moment of different programs. There are 33,935 pictures in total, and 22,811 pictures contain faces. The total number of faces is 68,896 and average one picture which contains faces has 3.02 faces. The resolutions of these images are 1920 x 1080. This dataset can be used in tv face detection.
 ### Annotation details
 The annotation of each picture contains:<br>
 * The number of faces contained in this picture (if there is no face in picture, there is no label below)<br>
 * The position of the boundingbox (x, y, w, h)<br>
 * Three levels according to the degree of blur, shaknesthree, occurrence(1 heavy, 2 normal, 3 without) and two different posts of the face(atypical, typical).<br>
-
-
-
+```
+example:
+001.jpg
+2
+27, 56, 14, 17, 1, 0, 0, 0
+513, 311, 5, 7, 2, 1, 0, 0
+```
 Train with Our Model
 ---
 ### Preparation for training<br>
@@ -126,12 +130,3 @@ cd test_dataset_evaluate/
 python eval.py
 ```
 * Result will be saved in ```./result/```
-
-
-
-
-
- 
-
-
-
